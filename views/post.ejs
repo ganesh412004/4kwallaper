@@ -1,0 +1,9 @@
+<% layout('layout') -%>
+<article class="post">
+  <h1><%= post.title %></h1>
+  <p class="meta">Published: <%= new Date(post.created_at).toDateString() %></p>
+  <% if (post.featured_image) { %>
+    <img src="<%= post.featured_image %>" alt="Featured image" class="featured" />
+  <% } %>
+  <div class="content"><%- post.content %></div>
+</article>

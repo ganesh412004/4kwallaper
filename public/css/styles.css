@@ -1,0 +1,10 @@
+body { font-family: system-ui, Arial, sans-serif; line-height: 1.6; margin:0; padding:0; color:#222; }
+.container { max-width:900px; margin:0 auto; padding:20px; }
+.site-header { background:#fff; border-bottom:1px solid #eee; }
+.header-inner { display:flex; align-items:center; gap:20px; padding:10px 0; }
+.logo { height:48px; }
+.search-form { margin-left:auto; display:flex; gap:8px; }
+.search-form input { padding:8px; }
+.posts-list { list-style:none; padding:0; }
+.post-item { padding:12px 0; border-bottom:1px solid #f0f0f0; }
+.featured { max-width:100%; height:auto; display:block; margin:12px 0; }

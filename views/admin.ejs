@@ -1,0 +1,14 @@
+<% layout('layout') -%>
+<section>
+  <h1>Create a new post</h1>
+  <form action="/admin" method="post">
+    <label>Title<br><input type="text" name="title" required></label><br>
+    <label>Excerpt<br><textarea name="excerpt"></textarea></label><br>
+    <label>Meta description<br><textarea name="meta_description"></textarea></label><br>
+    <label>Featured image URL<br><input type="text" name="featured_image"></label><br>
+    <label>Tags (comma separated)<br><input type="text" name="tags"></label><br>
+    <label>Content (HTML)<br><textarea name="content" rows="12" required></textarea></label><br>
+    <label><input type="checkbox" name="publish"> Publish now</label><br>
+    <button type="submit">Save post</button>
+  </form>
+</section>

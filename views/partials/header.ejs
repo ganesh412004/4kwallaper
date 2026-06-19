@@ -1,0 +1,11 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="/" class="logo-link">
+      <img src="/images/logo.png" alt="4kWallpaper logo" class="logo" />
+    </a>
+    <form action="/search" method="get" class="search-form">
+      <input type="search" name="q" placeholder="Search posts..." value="<%= typeof query !== 'undefined' ? query : '' %>" />
+      <button type="submit">Search</button>
+    </form>
+  </div>
+</header>
