@@ -1,0 +1,11 @@
+title: 4kWallpaper Blog
+email: ""
+description: "A simple static blog for 4kWallpaper"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ganesh412004.github.io/4kwallaper" # the base hostname & protocol for your site
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+markdown: kramdown
+paginate: 10
+theme: minima

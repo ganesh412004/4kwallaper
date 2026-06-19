@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<article class="post container">
+  <h1>{{ page.title }}</h1>
+  <p class="meta">Published: {{ page.date | date: "%B %d, %Y" }}</p>
+  {% if page.image %}
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="featured" />
+  {% endif %}
+
+  <div class="content">
+    {{ content }}
+  </div>
+</article>
